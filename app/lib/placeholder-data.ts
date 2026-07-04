@@ -1,5 +1,7 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 // https://nextjs.org/learn/dashboard-app/fetching-data
+import { formatCurrency } from './utils';
+
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
@@ -144,4 +146,17 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+let latestInvoices = new Array()
+for (let cpt=0; cpt<5; cpt ++) {
+  let nobj = {
+    id : cpt+1,
+    name : customers[cpt].name,
+    image_url: customers[cpt].image_url,
+    email: customers[cpt].email,
+    amount : formatCurrency(invoices[cpt].amount),
+  }
+  latestInvoices = [...latestInvoices, nobj]
+}
+
+
+export { users, customers, invoices, revenue, latestInvoices };

@@ -1,0 +1,575 @@
+{
+    "users": [
+        {
+            "id": "410544b2-4001-4271-9855-fec4b6a6442a",
+            "name": "User",
+            "email": "user@nextmail.com",
+            "password": "$2b$10$4C1WWNZzLt9jZnuh8JHf.e8UiOhD3cJfjln9mI6TwE6PK1nVjgGdS"
+        }
+    ],
+    "customers": [
+        {
+            "id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "name": "Lee Robinson",
+            "email": "lee@robinson.com",
+            "image_url": "/customers/lee-robinson.png"
+        },
+        {
+            "id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "name": "Michael Novotny",
+            "email": "michael@novotny.com",
+            "image_url": "/customers/michael-novotny.png"
+        },
+        {
+            "id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "name": "Delba de Oliveira",
+            "email": "delba@oliveira.com",
+            "image_url": "/customers/delba-de-oliveira.png"
+        },
+        {
+            "id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png"
+        },
+        {
+            "id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png"
+        }
+    ],
+    "invoices": [
+        {
+            "id": "db73b972-4acc-49f0-9bf1-3182d7846d61",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "amount": 1000,
+            "status": "paid",
+            "date": "2022-06-05"
+        },
+        {
+            "id": "94d27498-e7aa-4280-a016-8d95131c2e16",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "amount": 1000,
+            "status": "paid",
+            "date": "2022-06-05"
+        },
+        {
+            "id": "003c557c-d521-4153-8178-8cea0c7dd9b7",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "amount": 1000,
+            "status": "paid",
+            "date": "2022-06-05"
+        },
+        {
+            "id": "5f9df549-27c8-4e77-8015-964e774d9465",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "amount": 3040,
+            "status": "paid",
+            "date": "2022-10-29"
+        },
+        {
+            "id": "8b05c667-ff3b-40f8-9940-ac09383d0a9c",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "amount": 3040,
+            "status": "paid",
+            "date": "2022-10-29"
+        },
+        {
+            "id": "031cf7bc-ca9a-47ec-bf56-22e833b2ea37",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "amount": 3040,
+            "status": "paid",
+            "date": "2022-10-29"
+        },
+        {
+            "id": "c426eba3-7f36-4b30-b630-3d12525ce9f8",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "amount": 20348,
+            "status": "pending",
+            "date": "2022-11-14"
+        },
+        {
+            "id": "d3ed1d0a-a3bb-4597-82ef-bbb60a67a0e5",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "amount": 20348,
+            "status": "pending",
+            "date": "2022-11-14"
+        },
+        {
+            "id": "b3797d90-543c-44ec-9262-b64cda1980e2",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "amount": 15795,
+            "status": "pending",
+            "date": "2022-12-06"
+        },
+        {
+            "id": "15fb5dfd-b932-4922-9c6f-348e998a499a",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "amount": 15795,
+            "status": "pending",
+            "date": "2022-12-06"
+        },
+        {
+            "id": "422445f8-2b2d-4625-b998-248ede838a79",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8945,
+            "status": "paid",
+            "date": "2023-06-03"
+        },
+        {
+            "id": "4bd2e741-bf36-41c4-8077-dcafb224ead3",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8945,
+            "status": "paid",
+            "date": "2023-06-03"
+        },
+        {
+            "id": "38a18856-551e-45cf-b796-2a96ec248523",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8945,
+            "status": "paid",
+            "date": "2023-06-03"
+        },
+        {
+            "id": "6e9ce385-47cf-40d1-b202-65118e9f7f04",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8546,
+            "status": "paid",
+            "date": "2023-06-07"
+        },
+        {
+            "id": "5d290460-454d-4e6d-8811-77acd4c948ee",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8546,
+            "status": "paid",
+            "date": "2023-06-07"
+        },
+        {
+            "id": "227b676a-5104-4843-9f92-bd6a2b5c3630",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "amount": 8546,
+            "status": "paid",
+            "date": "2023-06-07"
+        },
+        {
+            "id": "97e5166a-604c-428c-a252-e972d66c6853",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "amount": 32545,
+            "status": "paid",
+            "date": "2023-06-09"
+        },
+        {
+            "id": "15b7c64b-a5f2-4c32-9a0c-aeebafb09b20",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "amount": 32545,
+            "status": "paid",
+            "date": "2023-06-09"
+        },
+        {
+            "id": "f3d3fd5a-3ace-4976-9cf2-a390758c9162",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "amount": 1250,
+            "status": "paid",
+            "date": "2023-06-17"
+        },
+        {
+            "id": "43f3b2e7-6a95-49e5-9d90-a3c0f09cf937",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "amount": 1250,
+            "status": "paid",
+            "date": "2023-06-17"
+        },
+        {
+            "id": "528708f4-204f-4951-b964-5f214f790bb9",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "amount": 666,
+            "status": "pending",
+            "date": "2023-06-27"
+        },
+        {
+            "id": "93a328c1-59ad-4ae3-b6a2-c81d2892f801",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "amount": 54246,
+            "status": "pending",
+            "date": "2023-07-16"
+        },
+        {
+            "id": "b9b2fecf-be8b-4c2a-b87d-676c4e0884bd",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "amount": 500,
+            "status": "paid",
+            "date": "2023-08-19"
+        },
+        {
+            "id": "bfd8baeb-c643-4928-aa70-3838a2510c69",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "amount": 500,
+            "status": "paid",
+            "date": "2023-08-19"
+        },
+        {
+            "id": "ae481458-1e7d-4ea0-9322-cb3253502eb8",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "amount": 44800,
+            "status": "pending",
+            "date": "2026-07-03"
+        },
+        {
+            "id": "e214e77d-7b87-454f-821e-b2bd8d030873",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "amount": -1,
+            "status": "pending",
+            "date": "2026-07-04"
+        }
+    ],
+    "revenue": [
+        {
+            "month": "Jan",
+            "revenue": 2000
+        },
+        {
+            "month": "Jul",
+            "revenue": 3500
+        },
+        {
+            "month": "Aug",
+            "revenue": 3700
+        },
+        {
+            "month": "Sep",
+            "revenue": 2500
+        },
+        {
+            "month": "Feb",
+            "revenue": 1800
+        },
+        {
+            "month": "Apr",
+            "revenue": 2500
+        },
+        {
+            "month": "May",
+            "revenue": 2300
+        },
+        {
+            "month": "Mar",
+            "revenue": 2200
+        },
+        {
+            "month": "Jun",
+            "revenue": 3200
+        },
+        {
+            "month": "Nov",
+            "revenue": 3000
+        },
+        {
+            "month": "Oct",
+            "revenue": 2800
+        },
+        {
+            "month": "Dec",
+            "revenue": 4800
+        }
+    ],
+    "latestInvoices": [
+        {
+            "id": 1,
+            "name": "Evil Rabbit",
+            "image_url": "/customers/evil-rabbit.png",
+            "email": "evil@rabbit.com",
+            "amount": "$157.95"
+        },
+        {
+            "id": 2,
+            "name": "Delba de Oliveira",
+            "image_url": "/customers/delba-de-oliveira.png",
+            "email": "delba@oliveira.com",
+            "amount": "$203.48"
+        },
+        {
+            "id": 3,
+            "name": "Lee Robinson",
+            "image_url": "/customers/lee-robinson.png",
+            "email": "lee@robinson.com",
+            "amount": "$30.40"
+        },
+        {
+            "id": 4,
+            "name": "Michael Novotny",
+            "image_url": "/customers/michael-novotny.png",
+            "email": "michael@novotny.com",
+            "amount": "$448.00"
+        },
+        {
+            "id": 5,
+            "name": "Amy Burns",
+            "image_url": "/customers/amy-burns.png",
+            "email": "amy@burns.com",
+            "amount": "$345.77"
+        }
+    ],
+    "filtered_invoices": [
+        {
+            "id": "db73b972-4acc-49f0-9bf1-3182d7846d61",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "name": "Lee Robinson",
+            "email": "lee@robinson.com",
+            "image_url": "/customers/lee-robinson.png",
+            "date": "2022-06-05",
+            "amount": 1000,
+            "status": "paid"
+        },
+        {
+            "id": "94d27498-e7aa-4280-a016-8d95131c2e16",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "name": "Lee Robinson",
+            "email": "lee@robinson.com",
+            "image_url": "/customers/lee-robinson.png",
+            "date": "2022-06-05",
+            "amount": 1000,
+            "status": "paid"
+        },
+        {
+            "id": "003c557c-d521-4153-8178-8cea0c7dd9b7",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "name": "Lee Robinson",
+            "email": "lee@robinson.com",
+            "image_url": "/customers/lee-robinson.png",
+            "date": "2022-06-05",
+            "amount": 1000,
+            "status": "paid"
+        },
+        {
+            "id": "5f9df549-27c8-4e77-8015-964e774d9465",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png",
+            "date": "2022-10-29",
+            "amount": 3040,
+            "status": "paid"
+        },
+        {
+            "id": "8b05c667-ff3b-40f8-9940-ac09383d0a9c",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png",
+            "date": "2022-10-29",
+            "amount": 3040,
+            "status": "paid"
+        },
+        {
+            "id": "031cf7bc-ca9a-47ec-bf56-22e833b2ea37",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png",
+            "date": "2022-10-29",
+            "amount": 3040,
+            "status": "paid"
+        },
+        {
+            "id": "c426eba3-7f36-4b30-b630-3d12525ce9f8",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "name": "Delba de Oliveira",
+            "email": "delba@oliveira.com",
+            "image_url": "/customers/delba-de-oliveira.png",
+            "date": "2022-11-14",
+            "amount": 20348,
+            "status": "pending"
+        },
+        {
+            "id": "d3ed1d0a-a3bb-4597-82ef-bbb60a67a0e5",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "name": "Delba de Oliveira",
+            "email": "delba@oliveira.com",
+            "image_url": "/customers/delba-de-oliveira.png",
+            "date": "2022-11-14",
+            "amount": 20348,
+            "status": "pending"
+        },
+        {
+            "id": "b3797d90-543c-44ec-9262-b64cda1980e2",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2022-12-06",
+            "amount": 15795,
+            "status": "pending"
+        },
+        {
+            "id": "15fb5dfd-b932-4922-9c6f-348e998a499a",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2022-12-06",
+            "amount": 15795,
+            "status": "pending"
+        },
+        {
+            "id": "422445f8-2b2d-4625-b998-248ede838a79",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-03",
+            "amount": 8945,
+            "status": "paid"
+        },
+        {
+            "id": "4bd2e741-bf36-41c4-8077-dcafb224ead3",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-03",
+            "amount": 8945,
+            "status": "paid"
+        },
+        {
+            "id": "38a18856-551e-45cf-b796-2a96ec248523",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-03",
+            "amount": 8945,
+            "status": "paid"
+        },
+        {
+            "id": "6e9ce385-47cf-40d1-b202-65118e9f7f04",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-07",
+            "amount": 8546,
+            "status": "paid"
+        },
+        {
+            "id": "5d290460-454d-4e6d-8811-77acd4c948ee",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-07",
+            "amount": 8546,
+            "status": "paid"
+        },
+        {
+            "id": "227b676a-5104-4843-9f92-bd6a2b5c3630",
+            "customer_id": "13d07535-c59e-4157-a011-f8d2ef4e0cbb",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-07",
+            "amount": 8546,
+            "status": "paid"
+        },
+        {
+            "id": "97e5166a-604c-428c-a252-e972d66c6853",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "name": "Michael Novotny",
+            "email": "michael@novotny.com",
+            "image_url": "/customers/michael-novotny.png",
+            "date": "2023-06-09",
+            "amount": 32545,
+            "status": "paid"
+        },
+        {
+            "id": "15b7c64b-a5f2-4c32-9a0c-aeebafb09b20",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "name": "Michael Novotny",
+            "email": "michael@novotny.com",
+            "image_url": "/customers/michael-novotny.png",
+            "date": "2023-06-09",
+            "amount": 32545,
+            "status": "paid"
+        },
+        {
+            "id": "f3d3fd5a-3ace-4976-9cf2-a390758c9162",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png",
+            "date": "2023-06-17",
+            "amount": 1250,
+            "status": "paid"
+        },
+        {
+            "id": "43f3b2e7-6a95-49e5-9d90-a3c0f09cf937",
+            "customer_id": "cc27c14a-0acf-4f4a-a6c9-d45682c144b9",
+            "name": "Amy Burns",
+            "email": "amy@burns.com",
+            "image_url": "/customers/amy-burns.png",
+            "date": "2023-06-17",
+            "amount": 1250,
+            "status": "paid"
+        },
+        {
+            "id": "528708f4-204f-4951-b964-5f214f790bb9",
+            "customer_id": "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
+            "name": "Balazs Orban",
+            "email": "balazs@orban.com",
+            "image_url": "/customers/balazs-orban.png",
+            "date": "2023-06-27",
+            "amount": 666,
+            "status": "pending"
+        },
+        {
+            "id": "93a328c1-59ad-4ae3-b6a2-c81d2892f801",
+            "customer_id": "3958dc9e-742f-4377-85e9-fec4b6a6442a",
+            "name": "Lee Robinson",
+            "email": "lee@robinson.com",
+            "image_url": "/customers/lee-robinson.png",
+            "date": "2023-07-16",
+            "amount": 54246,
+            "status": "pending"
+        },
+        {
+            "id": "b9b2fecf-be8b-4c2a-b87d-676c4e0884bd",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "name": "Delba de Oliveira",
+            "email": "delba@oliveira.com",
+            "image_url": "/customers/delba-de-oliveira.png",
+            "date": "2023-08-19",
+            "amount": 500,
+            "status": "paid"
+        },
+        {
+            "id": "bfd8baeb-c643-4928-aa70-3838a2510c69",
+            "customer_id": "3958dc9e-712f-4377-85e9-fec4b6a6442a",
+            "name": "Delba de Oliveira",
+            "email": "delba@oliveira.com",
+            "image_url": "/customers/delba-de-oliveira.png",
+            "date": "2023-08-19",
+            "amount": 500,
+            "status": "paid"
+        },
+        {
+            "id": "ae481458-1e7d-4ea0-9322-cb3253502eb8",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "name": "Michael Novotny",
+            "email": "michael@novotny.com",
+            "image_url": "/customers/michael-novotny.png",
+            "date": "2026-07-03",
+            "amount": 44800,
+            "status": "pending"
+        },
+        {
+            "id": "e214e77d-7b87-454f-821e-b2bd8d030873",
+            "customer_id": "76d65c26-f784-44a2-ac19-586678f7c2f2",
+            "name": "Michael Novotny",
+            "email": "michael@novotny.com",
+            "image_url": "/customers/michael-novotny.png",
+            "date": "2026-07-04",
+            "amount": -1,
+            "status": "pending"
+        }
+    ]
+}
